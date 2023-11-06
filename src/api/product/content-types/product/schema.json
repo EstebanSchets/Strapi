@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product_ID": {
+      "type": "string"
+    },
+    "Product_Desc": {
+      "type": "text"
+    },
+    "Product_Images": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Availability": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
